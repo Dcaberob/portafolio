@@ -1,0 +1,156 @@
+{
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "skills": "Skills",
+    "contact": "Contact",
+    "greeting": "Hello, I'm Daniel Cabero",
+    "work":" Fullstack Developer, QA Automation Engineer",
+    "street":" · Satinadores de Selva street · Cochabamba, BO · (+591) 60792226 ·",
+    "email":"cabernaldo010788@gmail.com",
+    "linkedin":" · https://www.linkedin.com/in/danielfcaberobarrios",
+    "github":" · https://github.com/Dcaberob",
+    "description": "Specialist in the development and improvement of technological systems for digital transformation. Experienced in implementing backend tools, automations, and APIs that have reduced operational times by up to 50%. Focused on operational efficiency, IT best practices, and collaborative work. Skilled at evaluating, optimizing, and innovating critical systems, aligned with modern development standards.",
+    "experiences": [
+      {
+        "title": "Fullstack Developer",
+        "company": "Simulated Bank - Project on request",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2024 - 2025 ",
+        "points": [
+          "Complete simulation of a bank teller's workflow.",
+          "Backend development and non-relational database (MongoDB).",
+          "Creation of dynamic forms with validations for internal users."
+        ]
+      },
+      {
+        "title": "Tech API Support and API developer",
+        "company": "Jalasoft - IBM Clasic Infrastructure",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2019 - 2023",
+        "points": [
+            "Implemented command-line tools (CLI) that optimized API management and support.",
+            "Documented APIs thoroughly, reducing client onboarding time by 40%.",
+            "Diagnosed and resolved critical issues in real time, improving system efficiency.",
+            "Applied IT best practices to ensure scalability, security, and standardization."
+        ]
+      },
+      {
+        "title": "Automatión QA Engineer",
+        "company": "Jalasoft",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2017 - 2019",
+        "points": [
+          "Collaborated closely with cross-functional teams to architect, develop, and maintain robust backend systems, ensuring seamless integration with front-end applications and optimizing system performance.",
+          "Performed comprehensive unit and integration testing to identify and resolve software defects, resulting in increased reliability and performance of key system components",
+          "Implemented continuous integration practices, leveraging Java (Gradle, Maven) and Python to initiate and streamline project workflows, boosting development efficiency and code quality"
+        ]
+      },
+      {
+        "title": "Fullstack Developer",
+        "company": "ADI Training Center - Project on request",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2024 - 2025",
+        "points": [
+            "Backend development and non-relational database (MongoDB).",
+            "Creation of dynamic forms with validations for internal users.",
+            "Implemented interactive pages for simulating banking operations, allowing users to perform transactions as if they were bank staff.",
+            "Creation of dynamic forms with validations for internal users."
+        ]
+      }
+    ],
+    "education_title": "Académic Training",
+    "education_list": [
+    {
+      "degree": "Bachelor's Degree in Systems Engineering",
+      "institution": "Major University of San Simón(UMSS)",
+      "location": "Cochabamba, Bolivia",
+      "duration": "2007 - 2023"
+    },
+    {
+      "degree": "Quality Assurance and Automation program",
+      "institution": "Jalasoft Fundations",
+      "location": "Cochabamba, Bolivia",
+      "duration": "January - August, 2017"
+    },
+    {
+      "degree": "Diploma in Business Application Development",
+      "institution": "Faculty of Science and Technology - UMSS",
+      "location": "Cochabamba, Bolivia",
+      "duration": "2023 - 2024"
+    },
+    {
+      "degree": "CCNA: Introduction to Networks",
+      "institution": "Cisco Networking Academy",
+      "location": "Online",
+      "duration": "2021"
+    }
+  ],
+  "projects_title": "Proyectos Destacados",
+  "projects_list": [
+    {
+      "name": "Bank Cash Simulator",
+      "description": "A system that simulates daily banking operations, with forms for tellers, a non-relational database, and a Flask backend.",
+      "technologies": ["Flask", "MongoDB", "Bootstrap","React", "Python"],
+      "link": "https://banktellerui.onrender.com/home"
+    },
+    {
+      "name": "API Product Inventory",
+      "description": "RESTful API for product and inventory management, with JWT authentication and Swagger documentation.",
+      "technologies": ["Python", "Flask", "MongoDB", "Swagger"],
+      "link": "https://github.com/caberos/erpbackend/tree/database"
+    },
+    {
+      "name": "UI Test Automation with Selenium",
+      "description": "Automated user interface testing for a web application using Selenium and Java.",
+      "technologies": ["Java", "Selenium", "Cucumber", "Gradle"],
+      "link": "https://github.com/caberos/templateAutomation"
+    },
+    {
+      "name": "UI Test Automation with Robot Framework",
+      "description": "Automated user interface testing for a web application using Selenium and Robot Framework.",
+      "technologies": ["Python", "Selenium", "Robot Framework"],
+      "link": "https://github.com/caberos/robotFramework"
+    },
+    {
+      "name": "HR ERP System",
+      "description": "A system for a company to register employees, departments, assets, employee information, work teams, and equipment.",
+      "technologies": ["Java", "Spring Boot", "React", "PostgreSQL", "Bootstrap"],
+      "link": "https://github.com/caberos/ERPHHRR"
+    },
+   {
+      "name": "Survey System for General Elections",
+      "description": "System that simulates voting and surveys for general elections, with forms for voters, a non-relational database, and a Flask backend.",
+      "technologies": ["Python", "Flask", "React", "MongoDB", "Bootstrap"],
+      "link": "https://caberos.github.io/encuestaui"
+    } ,
+    {
+      "name": "Dev vs QA Blog Page",
+      "description": "A page showcasing the differences between a developer and a QA automation engineer, featuring a modern responsive design and suggestions for various fields.",
+      "technologies": [  "React",  "Bootstrap"],
+      "link": "https://bugblog-kriy.vercel.app/"
+    }
+  ],
+  "skills_title": "Technical Skills",
+  "skills_list": [
+    "Python", "Java", "JavaScript", "Node.js",
+    "Spring Boot", "Django", "Flask", "MongoDB",
+    "Selenium", "Cypress", "Robot Framework", "React",
+    "TailwindCSS", "Bootstrap", "PostgreSQL","Cucumber",
+    "Jenkins", "Git", "Jira",   "GitHub", "Bitbucket","AWS",
+    "Agile", "Scrum", "Kanban", "Postman","Mysql",
+    "Swagger", "HTML", "CSS", "AWS", "SST"
+  ],
+
+  "contact_title": "Contact",
+  "contact_description": "¿Do you have an idea, a proposal, or would you like to work with me? I'm available to collaborate on projects or answer any questions.",
+  "contact_email": "cabernaldo010788@gmail.com",
+  "contact_button": "Send message",
+  "name":"Name",
+  "email_To":"Email",
+  "message":"Message",
+  "send":"Send",
+  "view_code":"View code"
+  }
+  
