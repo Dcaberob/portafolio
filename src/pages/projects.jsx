@@ -9,11 +9,11 @@ export default function Projects() {
     <section id="projects" className="container py-2">
       <h2 className="mb-3 border-bottom pb-2 text-center">{t('projects_title')}</h2>
 
-      <div className="row">
+      <div className="row fw-bold">
         {projects.map((proj, idx) => (
           <div className="col-md-4 mb-2" key={idx}>
             <div className="card h-100 shadow-sm">
-              <div className="card-body">
+              <div className="card-body bg-black text-white">
                 <h5 className="card-title">{proj.name}</h5>
                 <p className="card-text text-justify">{proj.description}</p>
                 <div className="mb-2">

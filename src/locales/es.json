@@ -10,10 +10,21 @@
     "street":" · Calle Satinadores de Selva · Cochabamba, BO · (+591) 60792226 ·",
     "email":" cabernaldo010788@gmail.com",
     "linkedin":" · https://www.linkedin.com/in/danielfcaberobarrios",
-    "github":" · https://github.com/Dcaberob",
+    "github":" · https://github.com/Dcaberob - https://github.com/caberos",
     "description": "Especialista en el desarrollo y mejora de sistemas tecnológicos para la transformación digital. Experiencia implementando herramientas backend, automatizaciones y APIs que han reducido tiempos operativos hasta en un 50%. Enfocado en eficiencia operativa, buenas prácticas de TI y trabajo colaborativo. Capacidad para evaluar, optimizar e innovar sistemas críticos, alineado con estándares modernos de desarrollo.",
     "experience_title": "Experiencia Profesional",
     "experiences": [
+      {
+        "title": "Automatión QA Ingeniero",
+        "company": "Banco Ganadero S.A",
+        "location": "Santa Cruz de la Sierra, Bolivia",
+        "duration": "Julio - Agosto, 2025",
+        "points": [
+            "Diseñé y ejecuté planes de pruebas manuales para funcionalidades de la aplicación móvil.",
+            "Realicé pruebas funcionales, identificando defectos y mejorando la calidad del producto.",
+            "Creé documentación y material de capacitación para nuevos miembros del equipo."
+        ]
+      },
       {
         "title": "Desarrollador Fullstack",
         "company": "Banco Simulado - Proyecto a pedido",
