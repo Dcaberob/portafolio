@@ -37,7 +37,7 @@ function NavbarContent() {
   return (
     <div className="d-flex flex-column justify-content-between h-100">
       {/* Contenido centralizado */}
-      <div className="d-flex flex-column justify-content-center flex-grow-1">
+      <div className="d-flex flex-column justify-content-center flex-grow-1 mt-2 fw-bold fs-5">
         <ul className="nav flex-column text-center">
           <li className="nav-item"><a className="nav-link text-white" href="#about">{t('about')}</a></li>
           <li className="nav-item"><a className="nav-link text-white" href="#experience">{t('experience')}</a></li>
@@ -47,11 +47,11 @@ function NavbarContent() {
         </ul>
       </div>
 
-      <div className="text-center mt-4">
+      <div className="text-center mt-4 fs-2">
         <hr className="bg-light" />
         <div className="btn-group" role="group">
-          <button onClick={() => changeLanguage('es')} className="btn btn-sm btn-light">ES</button>
-          <button onClick={() => changeLanguage('en')} className="btn btn-sm btn-light">EN</button>
+          <button onClick={() => changeLanguage('es')} className="btn btn-sm btn-light fs-5">ES</button>
+          <button onClick={() => changeLanguage('en')} className="btn btn-sm btn-light fs-5">EN</button>
         </div>
       </div>
     </div>

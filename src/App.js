@@ -5,7 +5,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import Index from './pages/index.jsx'
 import Projects from './pages/projects.jsx';
-import Contacts from './pages/contact.jsx';
 import Education from './pages/education.jsx';
 import Experience from './pages/experience.jsx';
 import Skills from './pages/skills.jsx';
