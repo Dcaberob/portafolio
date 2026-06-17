@@ -1,30 +1,42 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import Index from './pages/index.jsx'
-import Projects from './pages/projects.jsx';
-import Education from './pages/education.jsx';
-import Experience from './pages/experience.jsx';
-import Skills from './pages/skills.jsx';
-import Navbar from './components/navbar.jsx';
+import Home from "./pages/index";
+import Experience from "./pages/experience";
+import Education from "./pages/education";
+import Projects from "./pages/projects";
+import Skills from "./pages/skills";
+import Navbar from "./components/navbar";
 
-export default function App() {
+function App() {
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-12">
-          <Navbar />
-        </div>
-        <div className="col-md-9 offset-md-3 col-lg-10 offset-lg-2 p-4">
-          <Index />
+    <div className="app-container">
+      <Navbar />
+
+      <main className="main-content">
+        <section id="home" className="py-5">
+          <Home />
+        </section>
+
+        <section id="experience" className="section">
           <Experience />
-          <Education />
+        </section>
+
+        <section id="projects" className="section">
           <Projects />
+        </section>
+
+        <section id="education" className="section">
+          <Education />
+        </section>
+       
+        <section id="skills" className="section">
           <Skills />
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   );
 }
+
+export default App;

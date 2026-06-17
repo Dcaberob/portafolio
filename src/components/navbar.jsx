@@ -35,25 +35,112 @@ function NavbarContent() {
   };
 
   return (
-    <div className="d-flex flex-column justify-content-between h-100">
-      {/* Contenido centralizado */}
-      <div className="d-flex flex-column justify-content-center flex-grow-1 mt-2 fw-bold fs-5">
-        <ul className="nav flex-column text-center">
-          <li className="nav-item"><a className="nav-link text-white" href="#about">{t('about')}</a></li>
-          <li className="nav-item"><a className="nav-link text-white" href="#experience">{t('experience')}</a></li>
-          <li className="nav-item"><a className="nav-link text-white" href="#education">{t('education')}</a></li>
-          <li className="nav-item"><a className="nav-link text-white" href="#projects">{t('projects')}</a></li>
-          <li className="nav-item"><a className="nav-link text-white" href="#skills">{t('skills')}</a></li>
-        </ul>
+    <div className="d-flex flex-column h-100">
+
+      {/* Perfil */}
+      <div className="text-center mb-5">
+
+        {/*<img
+          src="/profile.jpg"
+          alt="Daniel Cabero"
+          className="profile-image"
+        />*/
+}
+        <h4 className="mt-3 mb-1">
+          Daniel Cabero
+        </h4>
+
+        <p className="text-secondary small">
+          QA Automation Engineer
+          <br />
+          Backend & Full Stack Developer
+        </p>
+
       </div>
 
-      <div className="text-center mt-4 fs-2">
-        <hr className="bg-light" />
-        <div className="btn-group" role="group">
-          <button onClick={() => changeLanguage('es')} className="btn btn-sm btn-light fs-5">ES</button>
-          <button onClick={() => changeLanguage('en')} className="btn btn-sm btn-light fs-5">EN</button>
-        </div>
+      {/* Menú */}
+      <ul className="nav flex-column flex-grow-1">
+
+        <li className="nav-item">
+          <a className="nav-link custom-link" href="#home">
+            Home
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a className="nav-link custom-link" href="#experience">
+            {t('experience')}
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a className="nav-link custom-link" href="#projects">
+            {t('projects')}
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a className="nav-link custom-link" href="#education">
+            {t('education')}
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a className="nav-link custom-link" href="#skills">
+            {t('skills')}
+          </a>
+        </li>
+
+      </ul>
+
+      {/* Redes */}
+      <div className="text-center mb-4">
+
+        <a
+          href="https://github.com/caberos"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+        >
+          <i className="bi bi-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/danielfcaberobarrios/"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+        >
+          <i className="bi bi-linkedin"></i>
+        </a>
+
       </div>
+
+      {/* Idiomas */}
+      <div className="text-center">
+
+        <hr />
+
+        <div className="btn-group">
+
+          <button
+            onClick={() => changeLanguage('es')}
+            className="btn btn-outline-light"
+          >
+            ES
+          </button>
+
+          <button
+            onClick={() => changeLanguage('en')}
+            className="btn btn-outline-light"
+          >
+            EN
+          </button>
+
+        </div>
+
+      </div>
+
     </div>
   );
 }
